@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - spring-boot-aws-elasticbeanstalk-example-0.0.2-SNAPSHOT.jar
+    - spring-boot-aws-elasticbeanstalk-example-SNAPSHOT.jar
