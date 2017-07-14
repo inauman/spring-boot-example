@@ -9,6 +9,3 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-artifacts:
-  files:
-    - s3://codepipeline-us-east-1-899556321063/hfpipeline/MyApp/spring-boot-aws-elasticbeanstalk.jar
