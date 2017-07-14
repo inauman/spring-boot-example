@@ -6,7 +6,7 @@
 
     <groupId>com.exampledriven</groupId>
     <artifactId>spring-boot-aws-elasticbeanstalk-example</artifactId>
-    <!--<version>0.0.1-SNAPSHOT</version>-->
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>spring-boot-aws-elasticbeanstalk-example</name>
@@ -64,11 +64,11 @@
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
                 <configuration>
-                     <!-- <skip>true</skip>-->
-                     <dotGitDirectory>${project.basedir}/../.git</dotGitDirectory> 
+                      <skip>true</skip>
+                     <!--<dotGitDirectory>${project.basedir}/../.git</dotGitDirectory> -->
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>br.com.ingenieux</groupId>
                 <artifactId>beanstalk-maven-plugin</artifactId>
                 <version>1.5.0</version>
@@ -81,7 +81,7 @@
                     <environmentRef>dev-mvn</environmentRef>
                     <solutionStack>64bit Amazon Linux 2016.09 v2.4.0 running Java 8</solutionStack>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 
