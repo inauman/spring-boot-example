@@ -11,4 +11,4 @@ phases:
       - mvn package
 artifacts:
   files:
-    - spring-boot-aws-elasticbeanstalk-example-SNAPSHOT.jar
+    - s3://codepipeline-us-east-1-899556321063/hfpipeline/MyApp/spring-boot-aws-elasticbeanstalk.jar
