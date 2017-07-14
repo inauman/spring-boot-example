@@ -8,7 +8,6 @@
     <artifactId>spring-boot-aws-elasticbeanstalk-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <outputDirectory>${project.build.directory}</outputDirectory>
     <name>spring-boot-aws-elasticbeanstalk-example</name>
     <description>Demo project for Spring Boot</description>
 
